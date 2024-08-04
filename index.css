@@ -1,0 +1,109 @@
+body {
+  font-family: Vazirmatn, sans-serif;
+}
+
+header h1 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+header img {
+  object-position: center;
+  width: 100%;
+  mix-blend-mode: color-dodge;
+  height: 100px;
+}
+.style-shadow {
+  box-shadow: inset 0px 0px 20px 12px #1b1b1b;
+}
+.h-100px {
+  height: 100px;
+}
+
+.h-240 {
+  height: 240px;
+}
+
+header h1 span {
+  color: greenyellow;
+}
+
+header h1 i {
+  background: linear-gradient(90deg, greenyellow, white);
+  height: fit-content;
+  filter: blur(10px);
+  position: absolute;
+  width: 100%;
+  inset: 0;
+  transform: rotate(180deg);
+  opacity: 0.4;
+  mix-blend-mode: saturation;
+}
+
+.banners .row div:first-child {
+  background: url("https://static.digiato.com/digiato/2024/08/RTX-3060-330x200.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.banners .row div:nth-child(2) {
+  background: url("https://static.digiato.com/digiato/2024/08/00a0ddb631b14eb1db2bab2d3ca8ac2c-330x200.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.banners .row div:nth-child(3) {
+  background: url("https://static.digiato.com/digiato/2024/08/nvidia_1-330x200.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.banners .row:last-child > div:nth-child(1) {
+  background: url("https://static.digiato.com/digiato/2024/08/META-AI-330x200.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.banners .row:last-child > div:nth-child(2) {
+  background: url("https://static.digiato.com/digiato/2024/07/satyabots.jpg-330x200.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.banners .row:last-child > div:nth-child(3) {
+  background: url("https://static.digiato.com/digiato/2024/08/OpenAI-330x200.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.banners .row > div {
+  text-decoration: none;
+  position: relative;
+  border-radius: 10px;
+}
+
+.banners .row p {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #0000004d;
+  margin: 0;
+  min-height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 0.5rem;
+}
+
+.banners .row {
+  height: 250px;
+}
+
+#sec-1 .card-footer {
+  font-size: 10px;
+}
+#sec-1 .card-title {
+  font-size: 16px;
+}
